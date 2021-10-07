@@ -1,0 +1,20 @@
+body /*changing background color to yellow*/
+{
+    background-color: whitesmoke;
+}
+h1 /*implemented rgb*/
+{
+    color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    margin-left: 14.3cm;
+    font-family: papyrus;
+}
+div
+{
+    margin-left: 7.4in;
+    color: hsl(150, 75%, 20%);
+}
+h2
+{
+    margin-left: 1px;
+    color: #000;
+}
