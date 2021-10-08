@@ -5,8 +5,8 @@ body /*changing background color to whitesmoke*/
 h1 /*implemented rgb, 1/3 relative units, changed font and size*/
 {
     color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
-    margin-left: 12.6cm;
-    font-family: papyrus;
+    margin-left: 14.6cm;
+    font-family: 'Explora', cursive;
     font-size: 3vw;
 }
 div /*2/3 relative units, implemented hsl*/
