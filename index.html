@@ -14,7 +14,11 @@
 <body>
   <header>
     <h1>CSE 110 Meeting Minutes</h1>
-    <div>10/1/21</div>
+    <div id="date">10/1/21
+      <p id="invis">
+        haha you can't see me
+      </p>
+    </div>
     <h2>Website Discussion and Fixes</h2>
     <h2>Agenda</h2>
   </header>
@@ -102,7 +106,7 @@
       and how we can recover from our shortcomings.<br>
       Here's some filler text because I don't know what else to say. <br>
       <br>
-      <em>Did you know it's impossible to hum while holding your nose?</em> I learned that from <a href="https://bestlifeonline.com/blow-your-mind-crazy-facts/"> this website.</a>
+      <em id="block">Did you know it's impossible to hum while holding your nose?</em> I learned that from <a href="https://bestlifeonline.com/blow-your-mind-crazy-facts/"> this website.</a>
       </p>
     <hr>
     <h3 class="relative" id="new">New</h3>
@@ -111,16 +115,19 @@
       alt="board"
       width="400"
     />
-    <p>
+    <div>
       Joseph and I have been discussing potential issues, 
       and have deduced that our issues stem from a lack of communication causing conflicts when <i>merging</i> our branches.
-      Joseph has told me that he and his group have also not been communicating among ourselves.
+      Joseph has told me that he and his group have also
+    <p id="inline">
+      <b>not</b>
+    </p>been communicating among ourselves.
       With each of us being left to our own devices, working on various elements individually to meet deadlines,
       we failed to thoroughly test and account for issues on a global scale. 
       Attached below is a video and an audio recording regarding potential fixes; to our merge dilemma, 
       we will once again work in groups, <b>please remember to keep each other updated.</b> <br>
       <br>
-    </p>
+  </div>
     <video controls width="400">
       <source src="lab2.mov" type="video/mp4">
     </video>
