@@ -3,4 +3,4 @@
 - When giving updates, ask yourself beforehand: What did I work on yesterday? What am I working on today? What issues are blocking me?
 - Keep stand-ups clear and concise (short and to the point).
 - Find ways to improve future meetings.
-- Have a "work board" present to visualize progress/issues.
+- Have a "work board" present on meetings to visualize progress/issues.
