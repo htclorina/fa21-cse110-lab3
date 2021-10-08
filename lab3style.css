@@ -1,20 +1,44 @@
-body /*changing background color to yellow*/
+body /*changing background color to whitesmoke*/
 {
     background-color: whitesmoke;
 }
-h1 /*implemented rgb*/
+h1 /*implemented rgb, 1/3 relative units, changed font and size*/
 {
     color: rgb(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
-    margin-left: 14.3cm;
+    margin-left: 13cm;
     font-family: papyrus;
+    font-size: 3vw;
 }
-div
+div /*2/3 relative units, implemented hsl*/
 {
-    margin-left: 7.4in;
+    margin-left: 7.39in;
     color: hsl(150, 75%, 20%);
 }
-h2
+h2 /*3/3 relative units, implement hex color*/
 {
     margin-left: 1px;
+    font-size: 5ex;
     color: #000;
+}
+#attendance /*font*/
+{
+    color: royalblue;
+}
+#previously
+{
+    color: teal;
+}
+#new
+{
+    color: green;
+}
+#miscellaneous
+{
+    color: blueviolet;
+}
+
+.relative
+{
+    font-family: Helvetica;
+    font-size: 2em;
 }
