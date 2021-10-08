@@ -9,7 +9,7 @@ h1 /*implemented rgb, 1/3 relative units, changed font and size*/
     font-family: 'Explora', cursive;
     font-size: 3vw;
 }
-div /*2/3 relative units, implemented hsl*/
+#date /*2/3 relative units, implemented hsl*/
 {
     text-align: center;
     color: hsl(150, 75%, 20%);
@@ -65,4 +65,16 @@ ul
 #text
 {
     text-decoration: line-through;
+}
+#invis
+{
+    display: none;
+}
+#block
+{
+    display: block;
+}
+#inline
+{
+    display: inline;
 }
