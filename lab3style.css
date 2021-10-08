@@ -1,4 +1,4 @@
-body /*changing background color to whitesmoke*/
+body /*changing background color to whitesmoke and incorporated grid*/
 {
     display: grid;
     grid-template-columns: [col1] auto [end];
@@ -16,7 +16,7 @@ h1 /*implemented rgb, 1/3 relative units, changed font and size*/
     width: auto;
     border: 1px black;
 }
-#sub, #mmdate
+#sub, #mmdate /*test selectors*/
 {
     text-align: center;
 }
@@ -31,7 +31,7 @@ h2 /*3/3 relative units, implement hex color*/
     font-size: 5ex;
     color: #000;
 }
-#attendance /*font*/
+#attendance /*giving headers colors*/
 {
     color: royalblue;
 }
@@ -48,20 +48,20 @@ h2 /*3/3 relative units, implement hex color*/
     color: blueviolet;
 }
 
-.relative
+.relative /*changed font for headers*/
 {
     font-family: Helvetica;
     font-size: 2em;
 }
-ul
+ul /*used margin*/
 {
     margin: auto;
 }
-#silly
+#silly /*needed to implement long padding*/
 {
     padding: 5mm 0mm 0mm 0mm;
 }
-#border
+#border /*border for miscellaneous*/
 {
     border-style: solid;
     border-color: #000;
@@ -72,15 +72,15 @@ ul
     padding-right: 10px;
     padding-bottom: 10px;
 }
-#text
+#text /*fulfilled text-decoration requirement*/
 {
     text-decoration: line-through;
 }
-#invis
+#invis /*fulfilled display requirements*/
 {
     display: none;
 }
-#block
+#block 
 {
     display: block;
 }
@@ -88,12 +88,12 @@ ul
 {
     display: inline;
 }
-#max
+#max /*hides secret text*/
 {
     max-height: .59in;
     overflow: auto;
 }
-#maxWidth1
+#maxWidth1 /*resizes certain boxes*/
 {
     max-width: 250px;
 }
@@ -113,40 +113,40 @@ ul
 {
     max-width: 80px;
 }
-.width
+.width /*resized video*/
 {
     width: 4in;
     min-width: none;
 }
-#bottomright
+#bottomright /*watermark on bottom right*/
 {
     position: fixed;
     bottom: 0;
     right: 0;
 }
-button:hover
+button:hover /*hover changes color for "or this one"*/
 {
     color: blue;
 }
-a:active
+a:active /*pseudo class requirement*/
 {
     text-decoration: overline underline;
 }
-.flexbox
+.flexbox /*incorporated flexbox*/
 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
 }
-@media(max-width: 720px)
+@media(max-width: 720px) /*responsiveness requirement*/
 {
     body
     {
         background-color: yellow;
     }
 }
-p[emphasis]
+p[emphasis] /*selector requirements*/
 {
     text-decoration: underline;
 }
