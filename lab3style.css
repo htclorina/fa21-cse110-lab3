@@ -1,6 +1,5 @@
 body /*changing background color to whitesmoke*/
 {
-    background-color: whitesmoke;
     display: grid;
     grid-template-columns: [col1] auto [end];
     grid-template-rows: [row1] auto [last-line];
@@ -17,13 +16,12 @@ h1 /*implemented rgb, 1/3 relative units, changed font and size*/
     width: auto;
     border: 1px black;
 }
-#sub
+#sub, #mmdate
 {
     text-align: center;
 }
 #mmdate /*2/3 relative units, implemented hsl*/
 {
-    text-align: center;
     color: hsl(150, 75%, 20%);
     font-size: 3ch;
 }
@@ -147,4 +145,29 @@ a:active
     {
         background-color: yellow;
     }
+}
+p[emphasis]
+{
+    text-decoration: underline;
+}
+
+div p
+{
+    display: none;
+}
+div span
+{
+    display: none;
+}
+span + div
+{
+    display: none;
+}
+span ~ div
+{
+    display: none;
+}
+p.relative
+{
+    display: none;
 }

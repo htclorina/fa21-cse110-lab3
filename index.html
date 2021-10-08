@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    * {
+      background-color: whitesmoke;
+    }
+    </style>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +17,17 @@
   <title>Lab 3</title>
 </head>
 <body>
-  <header >
-    <h1 class = "head">CSE 110 Meeting Minutes</h1>
-    <div class = "head" id="mmdate">10/1/21
+  <header>
+    <h1>CSE 110 Meeting Minutes</h1>
+    <div  id="mmdate">10/1/21
       <p id="invis">
         haha you can't see me
       </p>
     </div>
-    <h2 class = "head" id="sub">Website Discussion and Fixes</h2>
-    <h2 class="side">Agenda</h2>
+    <h2 id="sub">Website Discussion and Fixes</h2>
+    <h2 >Agenda</h2>
   </header>
-    <nav class="side">
+    <nav>
       <ul>
         <li><a href="#attendance">Attendance</a></li>
         <li><a href="#previously">Previously</a></li>
@@ -31,8 +36,8 @@
       </ul>
     </nav>
     <hr>
-    <h3 class="main" class="relative" id="attendance">Attendance</h3>
-    <ol class="main" class="grid">
+    <h3  class="relative" id="attendance">Attendance</h3>
+    <ol class="grid">
       <li><input type="checkbox" /> Hugs Clorina</li>
       <li><input type="checkbox" /> Erwin Goodman</li>
       <li><input type="checkbox" /> Tomoe Mishima</li>
@@ -50,7 +55,7 @@
       <li><input type="checkbox" /> Catrina Stevens</li>
     </ol>
     <hr>
-    <h3 class="main" class="relative" id="previously">Previously</h3>
+    <h3 class="relative" id="previously">Previously</h3>
     <img class="main"
       src="https://www.cdc.gov/wcms/4.0/cdc-wp/data-presentation/images/Pie_Example_Viz.png"
       alt="chart"
@@ -116,17 +121,25 @@
       width="400"
     />
     <div id="max">
+      <p>
+        you can't see me :P
+      </p>
+      <span>
+        <p>
+          i should be hidden as well
+        </p>
+      </span>
       Joseph and I have been discussing potential issues, 
       and have deduced that our issues stem from a lack of communication causing conflicts when <i>merging</i> our branches.
       Joseph has told me that he and his group have also
-    <p id="inline">
+    <p emphasis="underline" id="inline">
       <b>not</b>
     </p>been communicating among ourselves.
       With each of us being left to our own devices, working on various elements individually to meet deadlines,
       we failed to thoroughly test and account for issues on a global scale. 
       Attached below is a video and an audio recording regarding potential fixes; to our merge dilemma, 
       we will once again work in groups, <b>please remember to keep each other updated.</b> <br>
-      you shouldn't be able to see me :P
+      you shouldn't be able to see me either, unless you scroll :P
       <br>
   </div>
     <video class="width" controls width="400">
@@ -135,7 +148,7 @@
     <audio controls src="audio.m4a">
     </audio>
     <p id="silly">
-      Once again, I am at a loss on what to say, but I want to add more text to fill the site. you shouldn't be able to see me either<br>
+      Once again, I am at a loss on what to say, but I want to add more text to fill the site. <br>
       At least these silly additions give me a chance to use the different HTML elements;
     </p>
       <details>
@@ -167,9 +180,14 @@
       <p id="text">
         Hello, I exist merely to use the line-through text decoration.
       </p>
+      <span></span>
+      <div>can you see me?</div>
+      <span></span>
+      <div>what about me?</div>
       <p style="display: none;">
         Hello, I exist to test inline CSS editing, but you can't see me :>
       </p>
+      <p class="relative"> i exist, but i cannot be seen</p>
     </footer>
 </body>
 </html>
